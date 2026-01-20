@@ -1,0 +1,10 @@
+﻿{
+  "extends": ["config:recommended"],
+  "timezone": "Europe/Brussels",
+  "labels": ["dependencies"],
+  "semanticCommits": "enabled",
+  "packageRules": [
+    { "matchUpdateTypes": ["minor", "patch"], "automerge": true },
+    { "matchUpdateTypes": ["major"], "automerge": false }
+  ]
+}
